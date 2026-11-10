@@ -1,0 +1,43 @@
+{
+  "projeto": "Loja Shopping Iguatemi - Pavimento Térreo",
+  "localidade": "rio_de_janeiro",
+  "tipo_renovacao": "loja_comercial",
+  "area_piso_m2": "120",
+  "pe_direito_m": "3.5",
+  "tbs_interna_desejada_c": "24",
+  "umidade_interna_g_kg": "10",
+  "fator_seguranca_pct": "10",
+  "ocupantes": {
+    "quantidade_pessoas": 25,
+    "atividade": "comercio_moderado"
+  },
+  "iluminacao": {
+    "potencia_total_w": "2400",
+    "fator_uso": "1"
+  },
+  "equipamentos": {
+    "potencia_total_w": "1500",
+    "fator_simultaneidade": "9/10"
+  },
+  "envoltoria": [
+    {
+      "nome": "Fachada Vitrine Corredor",
+      "tipo_material": "vidro_simples_incolor_4mm",
+      "area_m2": "35",
+      "orientacao": "sul",
+      "fator_solar_vidro": "vidro_incolor_sem_protecao"
+    },
+    {
+      "nome": "Paredes Divisórias Laterais",
+      "tipo_material": "drywall_isolamento_la",
+      "area_m2": "80",
+      "delta_t_especifico_c": "3"
+    },
+    {
+      "nome": "Parede de Fundo (Depósito)",
+      "tipo_material": "alvenaria_bloco_concreto",
+      "area_m2": "30",
+      "delta_t_especifico_c": "4"
+    }
+  ]
+}

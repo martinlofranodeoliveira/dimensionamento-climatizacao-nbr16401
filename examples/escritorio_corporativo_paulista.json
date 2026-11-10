@@ -1,0 +1,50 @@
+{
+  "projeto": "Edifício Corporativo Paulista - Escritório Open Space",
+  "localidade": "sao_paulo",
+  "tipo_renovacao": "escritorio_geral",
+  "area_piso_m2": "180",
+  "pe_direito_m": "3.0",
+  "tbs_interna_desejada_c": "24",
+  "umidade_interna_g_kg": "10",
+  "fator_seguranca_pct": "10",
+  "ocupantes": {
+    "quantidade_pessoas": 20,
+    "atividade": "escritorio_sentado"
+  },
+  "iluminacao": {
+    "potencia_total_w": "1600",
+    "fator_uso": "1"
+  },
+  "equipamentos": {
+    "potencia_total_w": "3500",
+    "fator_simultaneidade": "9/10"
+  },
+  "envoltoria": [
+    {
+      "nome": "Fachada Envidraçada Leste",
+      "tipo_material": "vidro_simples_incolor_4mm",
+      "area_m2": "45",
+      "orientacao": "leste",
+      "fator_solar_vidro": "vidro_incolor_com_persiana_interna"
+    },
+    {
+      "nome": "Fachada Envidraçada Norte",
+      "tipo_material": "vidro_simples_incolor_4mm",
+      "area_m2": "30",
+      "orientacao": "norte",
+      "fator_solar_vidro": "vidro_incolor_com_persiana_interna"
+    },
+    {
+      "nome": "Paredes Externas Alvenaria",
+      "tipo_material": "alvenaria_tijolo_furado_reboco",
+      "area_m2": "65",
+      "orientacao": "leste"
+    },
+    {
+      "nome": "Divisórias Internas Hall",
+      "tipo_material": "drywall_isolamento_la",
+      "area_m2": "50",
+      "delta_t_especifico_c": "2"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1128"/>
+      <stop offset="100%" stop-color="#101f42"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2d5a"/>
+      <stop offset="100%" stop-color="#152244"/>
+    </linearGradient>
+    <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="orangeAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <!-- Fundo Principal -->
+  <rect width="1440" height="900" fill="url(#bgGrad)"/>
+
+  <!-- Cabeçalho Executivo -->
+  <rect x="40" y="30" width="1360" height="90" rx="12" fill="url(#cardGrad)" stroke="#2a3f7a" stroke-width="1" filter="url(#cardShadow)"/>
+  <rect x="40" y="30" width="6" height="90" rx="3" fill="url(#blueAccent)"/>
+  <text x="65" y="65" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="22" font-weight="700">LOFRANO TECNOLOGIA | CLIMATIZAÇÃO E CARGA TÉRMICA</text>
+  <text x="65" y="95" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">ABNT NBR 16401:2008 • Projeto: <tspan fill="#38bdf8" font-weight="600">Edifício Corporativo Paulista - Escritório Open Space</tspan> • Localidade: <tspan fill="#cbd5e1">São Paulo - SP</tspan> (TBS Ext: 32,0°C / TBS Int: 24,0°C)</text>
+  <rect x="1140" y="55" width="230" height="40" rx="20" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1.5"/>
+  <circle cx="1160" cy="75" r="6" fill="#10b981"/>
+  <text x="1178" y="80" fill="#10b981" font-family="system-ui, sans-serif" font-size="12" font-weight="700">CONFORME NBR 16401</text>
+
+  <!-- 5 Cards KPI -->
+  <!-- KPI 1: Carga Térmica Total BTU/h -->
+  <g transform="translate(40, 140)">
+    <rect width="255" height="100" rx="10" fill="url(#cardGrad)" stroke="#2a3f7a" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="20" y="32" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">CARGA TÉRMICA TOTAL</text>
+    <text x="20" y="70" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="28" font-weight="800">111713,0</text>
+    <text x="180" y="68" fill="#64748b" font-family="system-ui, sans-serif" font-size="13">BTU/h</text>
+    <text x="20" y="88" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">28152,0 kcal/h</text>
+  </g>
+
+  <!-- KPI 2: Carga em TR -->
+  <g transform="translate(315, 140)">
+    <rect width="255" height="100" rx="10" fill="url(#cardGrad)" stroke="#2a3f7a" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="20" y="32" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">CAPACIDADE EM TR</text>
+    <text x="20" y="70" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="28" font-weight="800">9,31</text>
+    <text x="140" y="68" fill="#64748b" font-family="system-ui, sans-serif" font-size="14">TR (ton)</text>
+    <text x="20" y="88" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">FCS: 0,89 (Sensível)</text>
+  </g>
+
+  <!-- KPI 3: Ar de Insuflamento -->
+  <g transform="translate(590, 140)">
+    <rect width="255" height="100" rx="10" fill="url(#cardGrad)" stroke="#2a3f7a" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="20" y="32" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">VAZÃO DE AR INSUFLADO</text>
+    <text x="20" y="70" fill="#06b6d4" font-family="system-ui, sans-serif" font-size="28" font-weight="800">8659,0</text>
+    <text x="150" y="68" fill="#64748b" font-family="system-ui, sans-serif" font-size="14">m³/h</text>
+    <text x="20" y="88" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Diferencial ΔT = 10 °C</text>
+  </g>
+
+  <!-- KPI 4: Renovação de Ar -->
+  <g transform="translate(865, 140)">
+    <rect width="255" height="100" rx="10" fill="url(#cardGrad)" stroke="#2a3f7a" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="20" y="32" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">AR EXTERIOR (NBR 16401-3)</text>
+    <text x="20" y="70" fill="#10b981" font-family="system-ui, sans-serif" font-size="28" font-weight="800">540,0</text>
+    <text x="150" y="68" fill="#64748b" font-family="system-ui, sans-serif" font-size="14">m³/h</text>
+    <text x="20" y="88" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Sensível: 1244,0 kcal/h</text>
+  </g>
+
+  <!-- KPI 5: Equipamento Comercial -->
+  <g transform="translate(1140, 140)">
+    <rect width="260" height="100" rx="10" fill="url(#cardGrad)" stroke="#2a3f7a" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="20" y="32" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">EQUIPAMENTO RECOMENDADO</text>
+    <text x="20" y="70" fill="#ec4899" font-family="system-ui. sans-serif" font-size="26" font-weight="800">120.000</text>
+    <text x="165" y="68" fill="#64748b" font-family="system-ui, sans-serif" font-size="13">BTU/h</text>
+    <text x="20" y="88" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Padronizado: 10,00 TR</text>
+  </g>
+
+  <!-- Painel Esquerdo: Esquema Psicrométrico e de Distribuição de Ar -->
+  <g transform="translate(40, 260)">
+    <rect width="740" height="570" rx="12" fill="url(#cardGrad)" stroke="#2a3f7a" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="25" y="35" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="16" font-weight="700">CICLO TÉRMICO E FLUXO DE DISTRIBUIÇÃO DE AR</text>
+    <text x="25" y="58" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Renovação de Ar Exterior ➔ Caixa de Mistura ➔ Evaporador/Condicionador ➔ Recinto</text>
+
+    <!-- Bloco Unidade Evaporadora / Condicionador -->
+    <g transform="translate(60, 120)">
+      <rect width="220" height="140" rx="8" fill="#0d1b3e" stroke="#38bdf8" stroke-width="2"/>
+      <text x="110" y="30" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">UNIDADE CLIMATIZADORA</text>
+      <!-- Serpentina -->
+      <path d="M 30 50 L 30 110 M 50 50 L 50 110 M 70 50 L 70 110 M 90 50 L 90 110" stroke="#06b6d4" stroke-width="4"/>
+      <text x="60" y="125" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Serpentina</text>
+      <!-- Ventilador -->
+      <circle cx="160" cy="80" r="30" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+      <path d="M 160 55 L 160 105 M 135 80 L 185 80" stroke="#f59e0b" stroke-width="3"/>
+      <text x="160" y="125" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Ventilador</text>
+    </g>
+
+    <!-- Entrada de Ar Exterior -->
+    <path d="M 20 160 L 60 160" stroke="#10b981" stroke-width="5" marker-end="url(#arrow)"/>
+    <text x="15" y="145" fill="#10b981" font-family="system-ui, sans-serif" font-size="10" font-weight="700">AR EXTERIOR</text>
+    <text x="15" y="180" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">540,0 m³/h</text>
+
+    <!-- Duto de Insuflamento de Ar -->
+    <path d="M 280 190 L 420 190 L 420 280" stroke="#38bdf8" stroke-width="8" fill="none"/>
+    <text x="350" y="175" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">AR INSUFLADO (14°C)</text>
+    <text x="350" y="210" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">8659,0 m³/h</text>
+
+    <!-- Recinto Climatizado (Zona Ocupada) -->
+    <g transform="translate(360, 280)">
+      <rect width="330" height="230" rx="10" fill="#0d1b3e" stroke="#2a3f7a" stroke-width="2"/>
+      <text x="165" y="30" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">RECINTO CONDICIONADO</text>
+      <text x="165" y="52" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">TBS = 24,0 °C • 50% UR</text>
+
+      <!-- Ícones de Carga Interna -->
+      <!-- Ocupantes -->
+      <rect x="25" y="80" width="80" height="60" rx="6" fill="#1e2d5a"/>
+      <text x="65" y="105" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">PESSOAS</text>
+      <text x="65" y="125" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">2236,0 kcal</text>
+
+      <!-- Iluminação -->
+      <rect x="125" y="80" width="80" height="60" rx="6" fill="#1e2d5a"/>
+      <text x="165" y="105" fill="#facc15" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">ILUMINAÇÃO</text>
+      <text x="165" y="125" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">1376,0 kcal</text>
+
+      <!-- Equipamentos -->
+      <rect x="225" y="80" width="80" height="60" rx="6" fill="#1e2d5a"/>
+      <text x="265" y="105" fill="#ec4899" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">EQUIPAMENTOS</text>
+      <text x="265" y="125" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">2709,0 kcal</text>
+
+      <!-- Carga da Envoltória -->
+      <text x="165" y="180" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Carga Envoltória (Paredes/Vidros): 16138,0 kcal/h</text>
+      <text x="165" y="205" fill="#10b981" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Conforto Térmico Assegurado NBR 16401-2</text>
+    </g>
+
+    <!-- Duto de Retorno -->
+    <path d="M 360 420 L 170 420 L 170 260" stroke="#64748b" stroke-width="5" stroke-dasharray="6,4" fill="none"/>
+    <text x="240" y="440" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Ar de Retorno (24°C)</text>
+  </g>
+
+  <!-- Painel Direito: Decomposição da Carga Térmica -->
+  <g transform="translate(800, 260)">
+    <rect width="600" height="570" rx="12" fill="url(#cardGrad)" stroke="#2a3f7a" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="25" y="35" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="16" font-weight="700">BALANÇO DETALHADO DE CARGA TÉRMICA</text>
+    <text x="25" y="58" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Decomposição das parcelas sensíveis e latentes</text>
+
+    <!-- Cabeçalho Tabela Parcelas -->
+    <rect x="25" y="80" width="550" height="30" rx="4" fill="#0d1b3e"/>
+    <text x="35" y="100" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="700">PARCELA TÉRMICA</text>
+    <text x="260" y="100" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="700">TIPO</text>
+    <text x="360" y="100" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="700">KCAL/H</text>
+    <text x="470" y="100" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="700">BTU/H</text>
+    <rect x="25" y="114" width="550" height="26" rx="2" fill="#152244"/>
+    <text x="35" y="130" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Condução Envoltória</text>
+    <text x="260" y="130" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">Sensível</text>
+    <text x="360" y="130" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">4079,0</text>
+    <text x="470" y="130" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">16187,0</text>
+    <rect x="25" y="142" width="550" height="26" rx="2" fill="#1a2a54"/>
+    <text x="35" y="158" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Radiação Solar Vidros</text>
+    <text x="260" y="158" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">Sensível</text>
+    <text x="360" y="158" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">12059,0</text>
+    <text x="470" y="158" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">47854,0</text>
+    <rect x="25" y="170" width="550" height="26" rx="2" fill="#152244"/>
+    <text x="35" y="186" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Ocupantes (Sensível)</text>
+    <text x="260" y="186" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">Sensível</text>
+    <text x="360" y="186" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">1204,0</text>
+    <text x="470" y="186" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">4777,0</text>
+    <rect x="25" y="198" width="550" height="26" rx="2" fill="#1a2a54"/>
+    <text x="35" y="214" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Ocupantes (Latente)</text>
+    <text x="260" y="214" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="11">Latente</text>
+    <text x="360" y="214" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">1032,0</text>
+    <text x="470" y="214" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">4094,0</text>
+    <rect x="25" y="226" width="550" height="26" rx="2" fill="#152244"/>
+    <text x="35" y="242" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Iluminação Artificial</text>
+    <text x="260" y="242" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">Sensível</text>
+    <text x="360" y="242" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">1376,0</text>
+    <text x="470" y="242" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">5459,0</text>
+    <rect x="25" y="254" width="550" height="26" rx="2" fill="#1a2a54"/>
+    <text x="35" y="270" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Equipamentos Eletroeletrônicos</text>
+    <text x="260" y="270" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">Sensível</text>
+    <text x="360" y="270" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">2709,0</text>
+    <text x="470" y="270" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">10748,0</text>
+    <rect x="25" y="282" width="550" height="26" rx="2" fill="#152244"/>
+    <text x="35" y="298" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Ar Externo (Sensível)</text>
+    <text x="260" y="298" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">Sensível</text>
+    <text x="360" y="298" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">1244,0</text>
+    <text x="470" y="298" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">4937,0</text>
+    <rect x="25" y="310" width="550" height="26" rx="2" fill="#1a2a54"/>
+    <text x="35" y="326" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Ar Externo (Latente)</text>
+    <text x="260" y="326" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="11">Latente</text>
+    <text x="360" y="326" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">1890,0</text>
+    <text x="470" y="326" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">7500,0</text>
+
+    <!-- Caixa de Totais -->
+    <g transform="translate(25, 360)">
+      <rect width="550" height="180" rx="8" fill="#0d1b3e" stroke="#2a3f7a" stroke-width="1"/>
+      <text x="20" y="30" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="700">BALANÇO TÉRMICO COM SEGURANÇA (+10,0%)</text>
+      <text x="20" y="60" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">• Calor Sensível Total: <tspan fill="#38bdf8" font-weight="700">24938,0 kcal/h</tspan></text>
+      <text x="20" y="85" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">• Calor Latente Total: <tspan fill="#f59e0b" font-weight="700">3214,0 kcal/h</tspan></text>
+      <text x="20" y="110" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">• Carga Térmica Total: <tspan fill="#ec4899" font-weight="800">111713,0 BTU/h</tspan> (9,31 TR)</text>
+      <line x1="20" y1="130" x2="530" y2="130" stroke="#1e2d5a" stroke-width="1"/>
+      <text x="20" y="155" fill="#10b981" font-family="system-ui. sans-serif" font-size="11" font-weight="700">Equipamento Padronizado Recomendado: 120.000 BTU/h (10.00 TR)</text>
+    </g>
+  </g>
+
+  <!-- Rodapé Técnico -->
+  <text x="720" y="870" fill="#64748b" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Engenharia Térmica e AVAC • Lofrano Tecnologia 2026 • 100% Aritmética Racional Exata (Zero Float)</text>
+</svg>

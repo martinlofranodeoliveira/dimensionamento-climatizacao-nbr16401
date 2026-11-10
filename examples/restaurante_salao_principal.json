@@ -1,0 +1,43 @@
+{
+  "projeto": "Restaurante Jardins - Salão Principal",
+  "localidade": "belo_horizonte",
+  "tipo_renovacao": "restaurante_refeitorio",
+  "area_piso_m2": "150",
+  "pe_direito_m": "3.2",
+  "tbs_interna_desejada_c": "23",
+  "umidade_interna_g_kg": "10",
+  "fator_seguranca_pct": "10",
+  "ocupantes": {
+    "quantidade_pessoas": 60,
+    "atividade": "restaurante"
+  },
+  "iluminacao": {
+    "potencia_total_w": "1800",
+    "fator_uso": "1"
+  },
+  "equipamentos": {
+    "potencia_total_w": "3000",
+    "fator_simultaneidade": "85/100"
+  },
+  "envoltoria": [
+    {
+      "nome": "Fachada Principal Envidraçada",
+      "tipo_material": "vidro_duplo_insulado_6mm",
+      "area_m2": "40",
+      "orientacao": "norte",
+      "fator_solar_vidro": "vidro_incolor_com_persiana_interna"
+    },
+    {
+      "nome": "Parede Externa Alvenaria",
+      "tipo_material": "alvenaria_tijolo_furado_reboco",
+      "area_m2": "70",
+      "orientacao": "leste"
+    },
+    {
+      "nome": "Divisória Cozinha Quente",
+      "tipo_material": "alvenaria_bloco_concreto",
+      "area_m2": "45",
+      "delta_t_especifico_c": "8"
+    }
+  ]
+}
